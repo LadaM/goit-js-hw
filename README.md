@@ -14,7 +14,12 @@ Homeworks for the JavaScript Fundamentals course
 │   ├── task-1.js
 │   ├── task-2.js
 │   ├── task-3.js
-│   └── task-4.js
+├── 03
+│   ├── task-1.js
+│   ├── task-2.js
+│   ├── task-3.js
+│   ├── task-4.js
+├── 04
 │   ├── task-1.js
 │   ├── task-2.js
 │   └── task-3.js
