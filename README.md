@@ -27,7 +27,11 @@ Homeworks for the JavaScript Fundamentals course
 │   ├── task-1.js
 │   ├── task-2.js
 │   ├── task-3.js
-│   └── task-4.js
+│   ├── task-4.js
+├── 06
+│   ├── task-1.js
+│   ├── task-2.js
+│   └── task-3.js
 ├── index.html
 └── README.md
 ```
