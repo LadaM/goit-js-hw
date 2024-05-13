@@ -17,7 +17,13 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -39,8 +45,8 @@ ul {
 
 img {
   display: block;
+  object-fit: cover;
   max-width: 100%;
-  height: auto;
 }
 
 ul #categories {
@@ -91,7 +97,8 @@ ul #categories {
   background-color: rgba(78, 117, 255, 1);
 }
 
-.primary-button:hover, .primary-button:focus {
+.primary-button:hover,
+.primary-button:focus {
   background: rgba(108, 140, 255, 1);
 }
 
@@ -102,5 +109,15 @@ ul #categories {
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.gallery li {
+  width: calc((100% - 48px) / 3);
 }
