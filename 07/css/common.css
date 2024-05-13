@@ -12,3 +12,95 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul #categories {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 392px;
+}
+
+#categories .item {
+  padding: 16px;
+  border-radius: 8px 0px 0px 0px;
+  background-color: rgba(246, 246, 254, 1);
+}
+
+#categories .item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 16px;
+}
+
+.category li {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  padding: 8px 0 8px 16px;
+  text-align: left;
+  color: rgba(46, 47, 66, 1);
+  outline: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 4px;
+}
+
+.primary-button {
+  height: Hug (40px) px;
+  padding: 8px 16px 8px 16px;
+  /* gap: 10px; */
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: rgba(78, 117, 255, 1);
+}
+
+.primary-button:hover, .primary-button:focus {
+  background: rgba(108, 140, 255, 1);
+}
+
+.button-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #FFFFFF;
+}
