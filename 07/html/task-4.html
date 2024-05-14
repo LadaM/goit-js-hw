@@ -10,18 +10,20 @@
 </head>
 
 <body>
-    <p><a href="javascript:history.back()">Go back</a></p>
+    <p><a href="javascript:history.back()" class="primary-button button-text">Go back</a></p>
 
     <form class="login-form">
-        <label>
+        <label class="label">
             Email
-            <input type="email" name="email" />
+            <!-- Not making the email input required because it interferes with the logic of showing the alert -->
+            <input type="email" name="email" class="input" />
         </label>
-        <label>
+        <label class="label">
             Password
-            <input type="password" name="password" />
+            <!-- Not making the email input required because it interferes with the logic of showing the alert -->
+            <input type="password" name="password" class="input" />
         </label>
-        <button type="submit">Login</button>
+        <button type="submit" class="primary-button button-text">Log in</button>
     </form>
 
     <script src="../js/task-4.js" type="module"></script>
