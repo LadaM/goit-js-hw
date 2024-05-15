@@ -29,6 +29,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  --light-blue-background: rgba(246, 246, 254, 1);
 }
 
 a {
@@ -82,7 +83,7 @@ ul #categories {
 #categories .item {
   padding: 16px;
   border-radius: 8px;
-  background-color: rgba(246, 246, 254, 1);
+  background-color: var(--light-blue-background);
 }
 
 #categories .item ul {
@@ -104,8 +105,10 @@ ul #categories {
   padding: 8px 16px 8px 16px;
   border-radius: 8px;
   border: none;
-  width: fit-content;
-  font: inherit;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
   font-weight: 500;
   color: #ffffff;
 }
@@ -136,6 +139,10 @@ ul #categories {
 .secondary-button:hover,
 .secondary-button:focus {
   background: #ff7070;
+}
+
+.wide-button {
+  padding: 8px 26px;
 }
 
 .gallery {
@@ -197,4 +204,31 @@ ul #categories {
 
 .widget p {
   margin-bottom: 16px;
+}
+
+#controls {
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+  background-color: var(--light-blue-background);
+  width: 486px;
+  margin: 16px 0;
+}
+
+#controls .input {
+  flex-grow: 1; /* Allow the input to grow to fill available space */
+  background: none;
+  min-width: unset;
+  text-align: center;
+}
+
+#boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 44px;
+  padding: 32px;
+  padding-right: 28px;
+  background-color: var(--light-blue-background);
+  max-width: 487px;
 }
